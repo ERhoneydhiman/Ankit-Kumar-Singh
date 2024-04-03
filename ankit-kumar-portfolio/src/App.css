@@ -31,6 +31,12 @@
     margin: 0 3vw;
 }
 
+.nav-links li a {
+    color: #F0F0F0;
+    text-decoration: none;
+
+}
+
 .sidebar-icon {
     display: none;
     fill: white;
@@ -52,7 +58,7 @@
     background-color: #282f3b;
     transition: transform 0.3s ease;
     transform: translateX(-100%);
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,11 +75,17 @@
     gap: 10vh;
 }
 
+.nav-links-sidebar li a {
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
 .show {
     transform: translateX(0);
 
 }
-.copy-sidebar a{
+
+.copy-sidebar a {
     color: #F0F0F0;
 }
 
