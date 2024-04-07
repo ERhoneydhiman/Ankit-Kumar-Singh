@@ -19,10 +19,6 @@ function Header() {
 
         <div className='head'>
 
-            <div className="img">
-
-            </div>
-
             <div className="navbar">
 
                 <div className="sidebar-icon">
@@ -43,7 +39,11 @@ function Header() {
 
                 </div>
 
-                <h1 className='title'>Ankit Kumar Singh</h1>
+                <div className="title">
+                    <h1>Ankit Kumar Singh</h1>
+                    <p>A well trained athlete.....</p>
+                </div>
+
 
                 <ul className='nav-links'>
                     <li><Link to="/">Home</Link></li>
