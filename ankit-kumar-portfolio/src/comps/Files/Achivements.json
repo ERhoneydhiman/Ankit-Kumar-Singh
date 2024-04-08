@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "acivements": "Active sports captain of my College.",
+        "icon": "images/dp.png"
+    },
+    {
+        "id": 2,
+        "acivements": "Won top athlete certificate for cross country event in 2023 at Osmania University.",
+        "icon": "images/dp.png"
+    },
+    {
+        "id": 3,
+        "acivements": "Receved Best Athlete of the Year Award in College (2021, 2022) for participating in Inter College Tournament and winning 2 Gold medals.",
+        "icon": "images/banner1.jpg"
+    },
+    {
+        "id": 4,
+        "acivements": "Best school sports captain (2019).",
+        "icon": "images/IMG-20231211-WA0002.jpg"
+    },
+    {
+        "id": 5,
+        "acivements": "Won 2 Gold medal in dist and state championship.",
+        "icon": "images/IMG-20231211-WA0002.jpg"
+    }
+]

@@ -7,7 +7,7 @@
 
 .head {
     background-color: #282f3b;
-    background-image: url(./imgs/banner1.jpg);
+    background-image: url(./imgs/banner.jpg);
     resize: both;
     background-repeat: no-repeat;
     background-position: top;
@@ -67,13 +67,13 @@
 .side-bar {
     width: 50%;
     z-index: 999;
-    height: calc(100vh - 45vh);
+    height: 100vh;
     color: #F0F0F0;
     background-color: #282f3b;
     transition: transform 0.3s ease;
     transform: translateX(-105%);
     position: fixed;
-    top: 45vh;
+    top: 10vh;
 
     display: flex;
     flex-direction: column;
@@ -107,20 +107,45 @@
 
 /* Home */
 
+.main {
+    background-color: #E5D283;
+}
+
 #hey {
     font-size: 3rem;
 }
 
 .first-para {
-    background-color: #E5D283;
-    width: 50vw;
-    min-height: 10vh;
-    font-size: 1.5rem;
-    text-align: center;
-    /* padding: 5vh 5vw; */
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 5vh 8vw;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
 }
 
+#dp {
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid #282f3b;
+}
 
+.second-para {
+    font-size: 1.5rem;
+    padding: 5vh 5vw;
+    text-align: right;
+
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+/* achivements */
+
+.achives{
+    margin: 30px;
+}
 
 @media screen and (max-width:600px) {
     .sidebar-icon {
@@ -132,6 +157,9 @@
     }
 
     .first-para {
-        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #dp{
+        width: 40%;
     }
 }
