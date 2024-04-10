@@ -31,7 +31,7 @@
 .nav-links li {
     display: inline;
     list-style: none;
-    margin: 0 10vw;
+    /* margin: 0 10vw; */
 }
 
 .nav-links {
@@ -40,6 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .nav-links li a {
@@ -143,9 +144,44 @@
 
 /* achivements */
 
-.achives{
-    margin: 30px;
+.achives {
+    background-color: #E5D283;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.achives h1 {
+    text-align: center;
+}
+
+/* .achivements {
+    padding: 3vh 3vw;
+} */
+
+.achivements ul{
+    padding: 5vh 5vw;
+}
+
+.achivements li{
+    list-style-type: none;
+    padding: 3vh 0;
+}
+
+.achivements ul p{
+    padding: 3vh 5vw;
+}
+
+.achive-img img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #282f3b;
+}
+
+/* footer */
+
+
 
 @media screen and (max-width:600px) {
     .sidebar-icon {
@@ -159,7 +195,8 @@
     .first-para {
         flex-direction: column-reverse;
     }
-    #dp{
+
+    #dp {
         width: 40%;
     }
 }
