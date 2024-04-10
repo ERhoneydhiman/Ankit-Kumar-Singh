@@ -41,6 +41,12 @@
     align-items: center;
     justify-content: space-around;
 
+
+}
+
+.nav-links-position{
+    position: fixed;
+    top: 0;
 }
 
 .nav-links li a {

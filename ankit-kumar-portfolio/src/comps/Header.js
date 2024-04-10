@@ -1,14 +1,30 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 
 function Header() {
-    const [sidebar, setSidebar] = useState(false)
-    const [menuBtn, setMenuBtn] = useState(true)
+    
+        const [sidebar, setSidebar] = useState(false)
+        const [menuBtn, setMenuBtn] = useState(true)
+        const [scrolled, setScrolled] = useState(false);
+
+        useEffect(() => {
+    const fixedNav = () => {
+            if (window.scrollY > 296) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+
+        }
+        window.addEventListener('scroll', fixedNav);
+        return () => {
+            window.removeEventListener('scroll', fixedNav);
+        };
+    }, [])
 
 
-
-    const resetSidebar = () =>{
+    const resetSidebar = () => {
         setSidebar(false)
         setMenuBtn(true)
     }
@@ -47,7 +63,7 @@ function Header() {
                 </div>
 
 
-                <ul className='nav-links'>
+                <ul className={`nav-links ${scrolled ? "nav-links-position" : ""}`}>
                     <li><Link to="/">Home</Link></li>
                     <li><Link
                         to="/About">
@@ -69,7 +85,7 @@ function Header() {
 
                 <ul className='nav-links-sidebar'>
                     <li><Link
-                        to="/"  onClick={resetSidebar}>
+                        to="/" onClick={resetSidebar}>
                         Home
                     </Link></li>
                     <li><Link
