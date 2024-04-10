@@ -2,26 +2,32 @@
     {
         "id": 1,
         "acivements": "Active sports captain of my College.",
-        "icon": "images/dp.png"
+        "description": "A well trained athlete with interest in sports and games since 8th standerd.",
+        "img": "images/IMG_20230731_150835_928.webp"
     },
     {
         "id": 2,
         "acivements": "Won top athlete certificate for cross country event in 2023 at Osmania University.",
-        "icon": "images/dp.png"
+        "description": "Developed interest in running in 11th standard,and have been training to become better and participate in events including many cluster, regional, state and school level national games.",
+        "img": "images/IMG-20231211-WA0012.jpg"
     },
     {
         "id": 3,
         "acivements": "Receved Best Athlete of the Year Award in College (2021, 2022) for participating in Inter College Tournament and winning 2 Gold medals.",
-        "icon": "images/banner1.jpg"
+        "description": "Enthusiastic and continuously practicing to improve performance to be able to represent india at olympic level.",
+        "img": "images/4.jpg"
     },
     {
         "id": 4,
         "acivements": "Best school sports captain (2019).",
-        "icon": "images/IMG-20231211-WA0002.jpg"
+        "description": " Started as a team player in kabaddi and kho-kho.",
+        "img": "images/5.jpg"
     },
     {
         "id": 5,
         "acivements": "Won 2 Gold medal in dist and state championship.",
-        "icon": "images/IMG-20231211-WA0002.jpg"
+        "description": "Have experience in training long distance running group athletes of all age groups and levels, includin beginners, intermediate or advanced level.",
+        "img": "images/3.jpg"
     }
 ]
+
