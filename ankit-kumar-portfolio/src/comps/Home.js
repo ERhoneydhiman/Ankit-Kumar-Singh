@@ -1,6 +1,5 @@
 import React from 'react'
 import dp from '../imgs/dp.png'
-import Achivements from './Achivements'
 
 
 function Home() {
@@ -19,7 +18,7 @@ function Home() {
         <p>I am a dedicated long - distance runner, demonstrating exceptional endurance & discipline in my athletic pursuits. My training regimen likely involves Consistent mileage, interval Sessions & cross  training to enhance performance and prevent injury. As an athlete, I prioritize proper nutrition, rest, and recovery to optimize my physical condition for races and Competitions. My Passion for running drives me Challenge myself, Setting personal goals & Striving for improvement With each race I undertake.</p>
       </div>
 
-      <Achivements/>
+      
     </div>
   )
 }

@@ -6,12 +6,17 @@ function Achivements() {
   return (
     <div className='achives'>
       <h1>My Achivements</h1>
-      <ul>
-        {achivementData && achivementData.map(achivement => (<li key={achivement.id}>
-          <h2>{achivement.acivements}</h2>
-          <div><img src={ achivement.icon } alt="imgs" /></div>
-        </li>))}
-      </ul>
+      <div className="achivements">
+        <ul>
+          {achivementData && achivementData.map(achivement => (<li key={achivement.id}>
+            <div className="achive-text">
+            <h2>{achivement.acivements}</h2>
+            <p>{achivement.description}</p></div>
+            <div className="achive-img"><img src={achivement.img} alt="img" /></div>
+          </li>))}
+        </ul>
+      </div>
+
     </div>
   )
 }

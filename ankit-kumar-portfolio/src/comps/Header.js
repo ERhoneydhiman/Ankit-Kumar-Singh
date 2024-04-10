@@ -8,12 +8,14 @@ function Header() {
 
 
 
-
+    const resetSidebar = () =>{
+        setSidebar(false)
+        setMenuBtn(true)
+    }
 
     const showSidebar = () => {
         setMenuBtn(!menuBtn)
         setSidebar(!sidebar)
-        console.log("hello")
     }
     return (
 
@@ -52,6 +54,10 @@ function Header() {
                         About
                     </Link></li>
                     <li><Link
+                        to="/Achives">
+                        Achivements
+                    </Link></li>
+                    <li><Link
                         to="/Contect">
                         Contect
                     </Link></li>
@@ -63,15 +69,19 @@ function Header() {
 
                 <ul className='nav-links-sidebar'>
                     <li><Link
-                        to="/">
+                        to="/"  onClick={resetSidebar}>
                         Home
                     </Link></li>
                     <li><Link
-                        to="/About">
+                        to="/About" onClick={resetSidebar}>
                         About
                     </Link></li>
                     <li><Link
-                        to="/Contect">
+                        to="/Achives" onClick={resetSidebar}>
+                        Achivements
+                    </Link></li>
+                    <li><Link
+                        to="/Contect" onClick={resetSidebar}>
                         Contect
                     </Link></li>
                 </ul>
