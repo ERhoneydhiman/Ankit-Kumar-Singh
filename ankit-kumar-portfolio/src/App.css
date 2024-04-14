@@ -44,7 +44,7 @@
 
 }
 
-.nav-links-position{
+.nav-links-position {
     position: fixed;
     top: 0;
 }
@@ -151,7 +151,6 @@
 /* achivements */
 
 .achives {
-    background-color: #E5D283;
     display: flex;
     flex-direction: column;
 
@@ -159,22 +158,19 @@
 
 .achives h1 {
     text-align: center;
+    margin: 3vh 0;
 }
 
-/* .achivements {
-    padding: 3vh 3vw;
-} */
-
-.achivements ul{
+.achivements ul {
     padding: 5vh 5vw;
 }
 
-.achivements li{
+.achivements li {
     list-style-type: none;
     padding: 3vh 0;
 }
 
-.achivements ul p{
+.achivements ul p {
     padding: 3vh 5vw;
 }
 
@@ -185,9 +181,54 @@
     border: 2px solid #282f3b;
 }
 
-/* footer */
+/* About */
 
+.about {
+    display: flex;
+    flex-direction: column;
+}
 
+.about h1 {
+    text-align: center;
+    margin: 3vh 0;
+}
+
+.skills {
+    padding: 2vh 4vw;
+}
+
+.skills h2 {
+    padding: 2vh 0;
+}
+
+.skills dl dt {
+    font-weight: 800;
+    padding: 1vh 1vw;
+}
+
+.skills dl dd {
+    padding: 0 0 1vh 4vw;
+}
+
+.skills ul,
+.employement ol {
+    padding: 0 0 3vh 4vw;
+}
+
+.employement {
+    padding: 5vh 4vw;
+
+}
+
+.employement h2 {
+    padding: 0 0 2vh 0;
+
+}
+
+.employement p {
+    font-weight: 500;
+    padding-bottom: 1vh;
+}
 
 @media screen and (max-width:600px) {
     .sidebar-icon {
@@ -205,4 +246,22 @@
     #dp {
         width: 40%;
     }
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #282f3b;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(16, 36, 43);
 }

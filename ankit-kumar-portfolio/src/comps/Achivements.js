@@ -4,7 +4,7 @@ import achivementData from './Files/Achivements.json'
 
 function Achivements() {
   return (
-    <div className='achives'>
+    <div className='achives main'>
       <h1>My Achivements</h1>
       <div className="achivements">
         <ul>
