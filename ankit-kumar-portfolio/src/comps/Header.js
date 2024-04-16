@@ -73,10 +73,10 @@ function Header() {
                         to="/Achives">
                         Achivements
                     </Link></li>
-                    <li><Link
+                    {/* <li><Link
                         to="/Contect">
                         Contect
-                    </Link></li>
+                    </Link></li> */}
                 </ul>
 
             </div>
@@ -96,10 +96,10 @@ function Header() {
                         to="/Achives" onClick={resetSidebar}>
                         Achivements
                     </Link></li>
-                    <li><Link
+                    {/* <li><Link
                         to="/Contect" onClick={resetSidebar}>
                         Contect
-                    </Link></li>
+                    </Link></li> */}
                 </ul>
 
                 <div className="copy-sidebar">

@@ -5,7 +5,7 @@ import './App.css';
 import Layout from './Layout';
 import Home from './comps/Home';
 import About from './comps/About';
-import Contect from './comps/Contect';
+// import Contect from './comps/Contect';
 import Achivements from './comps/Achivements';
 
 const router = createBrowserRouter(
@@ -14,7 +14,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='achives' element={<Achivements/>}/>
-      <Route path='contect' element={<Contect/>}/>
+      {/* <Route path='contect' element={<Contect/>}/> */}
       
     </Route>
   )

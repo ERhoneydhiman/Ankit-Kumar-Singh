@@ -31,7 +31,8 @@ function About() {
       </div>
 
       <div className="employement">
-        <h2>Decathlon Errum Manzil</h2>
+        <h2>Employment</h2>
+        <h3>Decathlon Errum Manzil</h3>
         <p>Athletic (Running) Team Sports Leader</p>
         <ol>
           <li>Responsible for the Athletic department</li>
